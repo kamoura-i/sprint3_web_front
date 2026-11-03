@@ -108,6 +108,9 @@ As regras originais são preservadas, com ajustes de Desktop, Tablet (até 1050 
 ## Deploy na Vercel
 https://jovi-sprint4-ten.vercel.app/
 
+## Link repositório Git
+https://github.com/kamoura-i/sprint3_web_front
+
 
 **Servidor back-end:** não há servidor próprio. A API é hospedada externamente na MockAPI. O Next.js roda com `npm run dev` no desenvolvimento ou `npm run build && npm run start` para produção.
 
