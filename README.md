@@ -106,12 +106,8 @@ As regras originais são preservadas, com ajustes de Desktop, Tablet (até 1050 
 8. Sair e conferir o retorno à tela de login.
 
 ## Deploy na Vercel
+https://jovi-sprint4-ten.vercel.app/
 
-1. Enviar a pasta do projeto para um repositório GitHub (não enviar `node_modules` nem `.env.local`).
-2. Importar o repositório na [Vercel](https://vercel.com/) como projeto Next.js.
-3. Nas variáveis de ambiente do projeto, cadastrar `NEXT_PUBLIC_MOCKAPI_URL` com a URL base da MockAPI.
-4. Fazer o deploy e testar as rotas, as requisições e a responsividade.
-5. Informar ao professor o **link real** do repositório Git e o **link real** do deploy Vercel. Esses links não são preenchidos aqui porque ainda não foram fornecidos/criados.
 
 **Servidor back-end:** não há servidor próprio. A API é hospedada externamente na MockAPI. O Next.js roda com `npm run dev` no desenvolvimento ou `npm run build && npm run start` para produção.
 
@@ -123,4 +119,4 @@ Foi utilizado o ChatGPT como ferramenta de apoio para analisar os requisitos da 
 
 O ZIP deve incluir código-fonte, `README.md`, `INTEGRANTES.TXT`, `package.json`, `package-lock.json`, assets e `.env.example`. Excluir `node_modules`, `.next`, `.env.local` e quaisquer segredos. A página `INTEGRANTES.TXT` contém os cinco integrantes e respectivos RMs provenientes da Sprint 3.
 
-**Pendente para publicação final:** configurar URL real da MockAPI, testar build e navegação em máquina com dependências instaladas, criar ou atualizar repositório Git e publicar na Vercel. Não afirmar que deploy ou integração externa foram concluídos antes desses testes.
+
